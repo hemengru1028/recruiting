@@ -1,0 +1,21 @@
+.Head {
+  width: 100vw;
+  height: 60px;
+  line-height: 60px;
+  background-color: #111;
+  /* display: grid; */
+  /* padding: 0 60px; */
+  /* align-content: center; */
+  text-align: center;
+  padding-left: -20px;
+  /* position: relative; */
+  box-shadow: 4px 4px 20px #80ffff;
+}
+.Head h2 {
+  display: block;
+  /* width: 250px; */
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: 600;
+  /* display: inline-block; */
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>学生信息管理</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+      }
+      #box {
+        text-align: center;
+        margin-left: 40px;
+      }
+      #title {
+        width: 160px;
+        height: 30px;
+      }
+      #content {
+        text-align: center;
+        height: 30px;
+      }
+      #edit {
+        display: block;
+        width: 50px;
+        height: 30px;
+        /* margin-left: -15px; */
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 8%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      <table>
+        <h2 style="text-align: center; font-size: 800; margin: 20px">
+          学生信息管理
+        </h2>
+        <thead>
+          <tr>
+            <!-- <th id="title">序号</th> -->
+            <th id="title">姓名</th>
+            <th id="title">学号</th>
+            <th id="title">手机号</th>
+            <th id="title">邮箱</th>
+            <th id="title">方向</th>
+            <th id="title" name="status">状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{each students}}
+          <tr>
+            <td id="content">{{$value.username}}</td>
+            <td id="content">{{$value.studentid}}</td>
+            <td id="content">{{$value.tel}}</td>
+            <td id="content">{{$value.email}}</td>
+            <td id="content">{{$value.direction}}</td>
+            <td id="content">{{$value.status}}</td>
+            <td>
+              <a href="/admin/edit?username={{$value.username}}" id="edit"
+                >编辑</a
+              >
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

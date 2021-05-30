@@ -1,0 +1,47 @@
+.directions {
+  width: 100vw;
+  /* height: 1000px; */
+  background-color: #f8f8f8;
+  padding-top: 15px;
+}
+.directions .About {
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.directionscontainer {
+  width: 100vw;
+  /* height: 900px; */
+  /* background-color: #2bb9ad; */
+  margin: 12px 0;
+  text-align: center;
+}
+
+.directionscontainer .row {
+  display: inline-block;
+  width: 160px;
+  height: 280px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.directionscontainer .row img {
+  width: 100%;
+  height: 55%;
+}
+.directionscontainer .row h4 {
+  margin: 3px 0 1px;
+}
+.directionscontainer .row .data {
+  padding: 0 6px;
+  color: #666;
+  /* margin: 5px; */
+  font-size: 11px;
+  text-align: center;
+}
+
+.Add {
+  color: #fff;
+}

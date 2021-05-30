@@ -1,0 +1,85 @@
+/* 登录组件的样式 */
+.Login-Background {
+  width: 100vw;
+  height: 160vw;
+}
+.LoginModules {
+  width: 65vw;
+  height: 50%;
+  position: absolute;
+
+  top: 18%;
+  left: 18%;
+
+  border-radius: 15px;
+}
+
+.LoginWelcome {
+  color: #fff;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.LoginInputs {
+  width: 70%;
+  height: 84%;
+  position: absolute;
+  top: 22%;
+  right: 16%;
+}
+
+.register-inp-login {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  margin: 16px 0;
+
+  font-size: 14px;
+}
+
+.register-inp-login #email {
+  height: 28px;
+  padding-left: 8px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.register-inp-login #test {
+  width: 55%;
+  height: 26px;
+  padding-left: 8px;
+  outline: none;
+  border: none;
+  height: 28px;
+  padding-left: 8px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+.register-inp-login .testButton {
+  display: inline-block;
+  margin-left: 8px;
+  height: 26px;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #000;
+}
+
+.LoginModules .login-button {
+  display: block;
+  width: 21vw;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 6%;
+  margin: 0 auto;
+  cursor: pointer;
+}

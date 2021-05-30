@@ -1,0 +1,27 @@
+.AddBox {
+  width: 100vw;
+  height: 40px;
+  /* padding-top: 20px; */
+  margin-top: 5px;
+}
+.Add {
+  background-color: #222;
+
+  display: block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: large;
+  font-weight: 800;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 transparent, 0 1px 5px 0 rgba(0, 0, 0, 0.24),
+    0 3px 1px -2px transparent;
+}
+
+.Add a {
+  color: #fff;
+  text-align: center;
+}
